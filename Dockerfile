@@ -1,5 +1,5 @@
 FROM python:3-alpine3.10
-LABEL author = "khaja"
+LABEL author = "karthik"
 EXPOSE 5000
 RUN mkdir /flask-hello-world
 ADD . /flask-hello-world
